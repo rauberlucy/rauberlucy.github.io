@@ -1,0 +1,103 @@
+<!doctype html>
+	<html lang="en">
+	  <head>
+<style>
+    body {
+   background-color: #ffcce6;
+}
+.a {
+    text-align: center;
+}
+h1 {
+color: #ffffff;
+font-family: "Impact";
+}
+h2 {
+color: #ffaa80;
+font-family: "Impact";
+font-size: 23px;
+}
+h3 {
+color: #ffaa80;
+font-family: "Impact";
+font-size: 23px;
+}
+h4 {
+color: #ffaa80;
+font-family: "Impact";
+font-size: 23px;
+}
+h5 {
+color: #ffaa80;
+font-family: "Impact";
+font-size: 23px;
+}
+h6 {
+color: #ffaa80;
+font-family: "Impact";
+font-size: 23px;
+}
+.button {
+    background-color: #ffaa80;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+color: white;
+}
+</style>
+	    <meta charset="utf-8">
+	    <title>About Me</title>
+	  </head>
+	  <body>
+	      <div class="a">
+        <a href="index.html" class="button">Home</a>
+    <a href="portfolio.html" class="button">Portfolio</a>
+    <a href="aboutme.html" class="button">About Me</a>
+    <a href="tipsandtricks.html" class="button">Tips and Tricks</a>
+    <a href="resume.html" class="button">Resume</a>
+        <h1>All About Me!</h1>
+        <h2>Hi! My name is Lucy Rauber.
+        I am a sophomore in high school.</h2>
+        <br>
+        <img src="images/me.jpg" alt="picture of lucy" height="500"
+        <br>
+        <h3>I live in Coronado, California.</h3>
+        <br>
+        <img src="images/beach.jpeg" alt="picture of the beach in coronado" height="500"
+        <br>
+        <h4>I like to hang out with my friends and family in my free time.</h4>
+        <br>
+        <img src="images/group.jpg" alt="picture of friends" height="500"
+        <br>
+        <h5>I also participate and coach cheer.</h5>
+        <br>
+        <img src="images/cheer.jpg" alt="picture of cheer team" height="500"
+        <br>
+	<h6>Come Say Hi!</h6>
+
+<button onclick="myFunction()">Click this to say hi!</button>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+var txt;
+var person = prompt("Please enter your name:", "you");
+if (person == null || person == "") {
+txt = " ";
+} else {
+txt = "Hey there " + person + "! How is your day going?";
+}
+document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+	  </body>
+	</html>
